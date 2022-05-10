@@ -17,6 +17,7 @@ const ToDoList = ({ toDoList, handleToggle, handleFilter }) => {
           return (
             <ToDo
               todo={todo}
+              key={todo.id}
               handleToggle={handleToggle}
               handleFilter={handleFilter}
             />
